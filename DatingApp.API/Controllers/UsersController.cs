@@ -55,5 +55,9 @@ namespace DatingApp.API.Controllers
             }
             throw new Exception($"Updatating user {id} failed on save");
         }
+        public async Task<IActionResult> UpdateUserNext()
+        {
+            return Ok();
+        }
     }
 }
